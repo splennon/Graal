@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home" stamp="1554196120000"/>
+    <entry loc="/Users/stephen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.4.v20220903-1038" stamp="1664117752888"/>
+    <entry loc="/Users/stephen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.4.v20220903-1038/jre" stamp="1664117752887"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home" stamp="1664117445830"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home" stamp="1513730643000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/graalvm-ce-java17-22.2.0/Contents/Home" stamp="1664134962771"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/graalvm-ce-java11-21.1.0/Contents/Home" stamp="1624095428103"/>
+</dirs>

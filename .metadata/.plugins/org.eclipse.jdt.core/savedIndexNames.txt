@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/stephen/workspaces/graal/.metadata/.plugins/org.eclipse.jdt.core
+3555763583.index
+3706389384.index
+1865797976.index

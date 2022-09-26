@@ -1,0 +1,23 @@
+package graal;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.graalvm.polyglot.Context;
+import org.graalvm.polyglot.Source;
+import org.graalvm.polyglot.Value;
+
+public class App {
+
+	public static void main(String... args) throws IOException {
+		
+		InputStreamReader is = new InputStreamReader(App.class.getResourceAsStream("/t.py"));
+		Source source = Source.newBuilder("python", is, "t").build();
+		Value result = Context.create().eval(source);
+		Value pl = result.getMember("pl");
+		;
+		System.out.println(result.getMemberKeys());
+	}
+}

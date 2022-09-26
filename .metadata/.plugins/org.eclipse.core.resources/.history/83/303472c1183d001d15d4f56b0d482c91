@@ -1,0 +1,17 @@
+package graal;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.graalvm.polyglot.Context;
+import org.graalvm.polyglot.Source;
+
+public class App {
+
+	public static void main(String... a) throws IOException {
+		File file = new File("/path_to_python/test.py");
+		InputStream is = App.class.getResourceAsStream("/t.py");
+		Source source = Source.newBuilder("python", file).build();
+		Context.create().eval(source);
+	}
+}
